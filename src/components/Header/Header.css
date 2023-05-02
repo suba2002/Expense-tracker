@@ -1,0 +1,13 @@
+.header{
+    border:2px solid black;
+    width:60vh;
+    margin: 10px auto;
+}
+
+.header__container{
+    color: #f6f8e2;
+    font-size: 35px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+}

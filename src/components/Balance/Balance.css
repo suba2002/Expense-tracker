@@ -1,0 +1,18 @@
+.balance{
+    border:2px solid black;
+    width:60vh;
+    margin: 10px auto;
+}
+
+.balance__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e0ddca;
+}
+
+.balance__header{
+    font-size: 25px;
+    font-weight: bolder;
+}

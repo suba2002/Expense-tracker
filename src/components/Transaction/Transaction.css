@@ -1,0 +1,76 @@
+.transaction{
+    border:2px solid black;
+    width:60vh;
+    margin: 10px auto;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+}
+
+.transaction__header>p{
+    color: #f6f8e2;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.transaction__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transaction__text>p{
+    color:#e0ddca;
+    font-size: 20px;
+    font-weight: medium;
+   
+}
+
+.transaction__text>input{
+    border: none;
+    outline: none;
+    border: 1px solid #e0ddca;
+    background-color: #3c3d42;
+    padding: 5px 10px;
+    color: #e0ddca;
+}
+
+.transaction__amount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.transaction__amount>p{
+    color:#e0ddca;
+    font-size: 20px;
+    font-weight: medium;
+}
+
+.transaction__hint{
+    margin-top: -20px;
+}
+
+.transaction__amount>input{
+    border: none;
+    outline: none;
+    border: 1px solid #e0ddca;
+    background-color: #3c3d42;
+    padding: 5px 10px;
+    color: #e0ddca;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: #3c3d42;
+    border: 1px solid #e0ddca;
+    padding: 7px 15px;
+    color: #e0ddca;
+    border-radius: 3vh;
+    cursor: pointer;
+}
